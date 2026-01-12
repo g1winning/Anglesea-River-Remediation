@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anglesea River Revival: Biochar Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .font-heading { font-family: 'Montserrat', sans-serif; }
+        .font-body { font-family: 'Lora', serif; }
+    </style>
+</head>
+<body class="font-body bg-white text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white bg-opacity-90 shadow-sm z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-green-800 font-heading">River Revival Rangers</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#problem" class="text-green-700 hover:text-green-600 transition">The Problem</a>
+                <a href="#biochar" class="text-green-700 hover:text-green-600 transition">Biochar</a>
+                <a href="#plan" class="text-green-700 hover:text-green-600 transition">The Plan</a>
+                <a href="#involved" class="text-green-700 hover:text-green-600 transition">Get Involved</a>
+            </div>
+            <button class="md:hidden focus:outline-none" id="menu-toggle">
+                <i data-feather="menu" class="text-green-800"></i>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-white w-full px-6 py-4" id="mobile-menu">
+            <div class="flex flex-col space-y-4">
+                <a href="#problem" class="text-green-700 hover:text-green-600 transition">The Problem</a>
+                <a href="#biochar" class="text-green-700 hover:text-green-600 transition">Biochar</a>
+                <a href="#plan" class="text-green-700 hover:text-green-600 transition">The Plan</a>
+                <a href="#involved" class="text-green-700 hover:text-green-600 transition">Get Involved</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-green-50 overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <img src="https://live-production.wcms.abc-cdn.net.au/5c2b90e0d2556d0f022e182a34d99e7e?impolicy=wcms_crop_resize&cropH=1000&cropW=1500&xPos=0&yPos=0&width=1500&height=1000" alt="Healthy thriving Australian estuary with clear water and fish" class="absolute w-full h-full object-cover">
+        <div class="relative z-10 px-6 text-center max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 font-heading">Restore the Anglesea River</h1>
+            <h2 class="text-xl md:text-2xl text-green-100 mb-8">A Community-Led Biochar Solution</h2>
+            <p class="text-lg text-white mb-10">Using local waste to heal our waterways – slow the flow, regenerate the landscape, together.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#involved" class="bg-green-700 hover:bg-green-600 text-white px-8 py-3 rounded-full font-medium transition duration-300">Support the Plan</a>
+                <a href="#plan" class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-3 rounded-full font-medium transition duration-300 border border-white">Learn More</a>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-0 right-0 text-center">
+            <a href="#problem" class="inline-block animate-bounce">
+                <i data-feather="chevron-down" class="text-white h-8 w-8"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="https://www.portnews.com.au/images/transform/v1/crop/frm/ppNWdZhTTkjhqMUVsrRSd4/4e86e061-e84d-498d-9f06-450d2aa3056c.jpg/r94_0_5174_2856_w1200_h678_fmax.jpg" alt="Acid affected waterway with iron floc" class="rounded-lg shadow-lg w-full object-cover">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-green-800 mb-6 font-heading">Our Beloved River is Hurting</h2>
+                    <p class="text-lg text-gray-700 mb-6">The Anglesea River and estuary have suffered repeated acidification events from exposed acid sulfate soils, worsened by past mining and drying peat swamps. Low pH, toxic aluminium and iron releases, and floc precipitates have caused fish kills, harmed aquatic life, and threatened the health of this iconic Surf Coast waterway we all love surfing, fishing, walking, and sharing with our kids.</p>
+                    <p class="text-lg text-gray-700">The community is worried – about groundwater depletion, ongoing acidity pulses, and the long-term health of our estuary. We need a gentle, nature-based solution that works with stakeholders and the landscape, not against it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biochar Section -->
+    <section id="biochar" class="py-20 bg-green-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="https://thumbs.dreamstime.com/b/hands-holding-biochar-charcoal-soil-amendment-improves-health-boosts-carbon-sequestration-enhancing-agriculture-enriches-385672679.jpg" alt="Hands holding biochar" class="rounded-lg shadow-lg w-full object-cover">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-green-800 mb-6 font-heading">Biochar: Nature's Ancient Soil Healer</h2>
+                    <p class="text-lg text-gray-700 mb-6">Biochar is a stable, carbon-rich material made by slowly heating local woody waste in low-oxygen conditions (pyrolysis). Used by Indigenous peoples for millennia to enrich soils, modern biochar is a powerful tool for regeneration.</p>
+                    <p class="text-lg text-gray-700 mb-8">It neutralises acidity, binds toxic metals, holds water like a sponge (helping keep swamps wetter longer), sequesters carbon for centuries, and improves soil life. Produced locally using the efficient Kon-Tiki flame curtain kiln – a low-investment, community-friendly method.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-2 rounded-full">
+                                <i data-feather="users" class="text-green-700"></i>
+                            </div>
+                            <p class="text-gray-700">Community production employs locals, builds skills, and promotes active engagement in forest management – making parks safer and more accessible</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-2 rounded-full">
+                                <i data-feather="tree" class="text-green-700"></i>
+                            </div>
+                            <p class="text-gray-700">Sourced from Great Otway National Park / Anglesea Heath woody debris and Surf Coast greenwaste</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-2 rounded-full">
+                                <i data-feather="shield" class="text-green-700"></i>
+                            </div>
+                            <p class="text-gray-700">Turns bushfire fuel loads into a resource – major fire risk reduction</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-2 rounded-full">
+                                <i data-feather="cloud" class="text-green-700"></i>
+                            </div>
+                            <p class="text-gray-700">Massive carbon drawdown – a true climate-positive action</p>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-green-100 p-2 rounded-full">
+                                <i data-feather="leaf" class="text-green-700"></i>
+                            </div>
+                            <p class="text-gray-700">No chemicals, no sludge, long-lasting benefits</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Plan Section -->
+    <section id="plan" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-green-800 mb-4 font-heading">A Permaculture-Inspired, Whole-of-Landscape Plan</h2>
+                <p class="text-lg text-gray-700">This community-led approach applies permaculture principles: observe, slow the flow, use local resources, and regenerate from source to sea. Every step creates jobs, builds community skills, and draws down carbon.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline line -->
+                <div class="hidden md:block absolute left-1/2 h-full w-1 bg-green-200 transform -translate-x-1/2"></div>
+
+                <!-- Step 1 -->
+                <div class="flex flex-col md:flex-row items-center mb-16">
+                    <div class="md:w-1/2 md:pr-16 mb-8 md:mb-0">
+                        <div class="bg-green-50 p-8 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4 font-heading">Step 1: Community Biochar Production</h3>
+                            <p class="text-gray-700 mb-6">We produce high-quality eucalyptus biochar (>85% carbon) locally using the Kon-Tiki flame curtain kiln – a simple, efficient, low-investment method that's safe and accessible for community use. Training and employing locals to process park thinning waste and greenwaste creates jobs, fosters hands-on forest engagement (making parks safer and more accessible), reduces fire hazard, and sequesters carbon immediately.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-16">
+                    <img src="https://huggingface.co/spaces/g1winner/river-revival-rangers/resolve/main/images/Screenshot%202026-01-12%20at%2012.48.56%E2%80%AFpm.png" alt="Kon-Tiki flame curtain kiln in action" class="rounded-lg shadow-lg w-full object-cover">
+</div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col md:flex-row-reverse items-center mb-16">
+                    <div class="md:w-1/2 md:pl-16 mb-8 md:mb-0">
+                        <div class="bg-green-50 p-8 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4 font-heading">Step 2: Source Control in the Acid Swamps</h3>
+                            <p class="text-gray-700 mb-6">Shallow incorporation of biochar (20–40 tonnes/ha) into upper catchment acid swamps. Raises soil pH, retains moisture to suppress sulfide oxidation, immobilises metals at source – preventing acidic pulses before they start.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 md:pr-16">
+                        <img src="https://huggingface.co/spaces/g1winner/river-revival-rangers/resolve/main/images/biochar%20holds%20water.jpg" alt="Biochar holding water demonstrating its absorption properties" class="rounded-lg shadow-lg w-full object-cover">
+</div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col md:flex-row items-center mb-16">
+                    <div class="md:w-1/2 md:pr-16 mb-8 md:mb-0">
+                        <div class="bg-green-50 p-8 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4 font-heading">Step 3: Slow-the-Flow Swales</h3>
+                            <p class="text-gray-700 mb-6">Dig gentle contour swales uphill, infilled with 10–20% biochar. Slows runoff, promotes deep infiltration, recharges groundwater, reduces erosion and exposure of new sulfidic soils. Overflow points fitted with biochar filters to prevent acidic runoff.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-16">
+                        <img src="https://horsesandpeople.com.au/wp-content/uploads/2019/09/Appleseed-Permaculture.jpg" alt="Permaculture contour swales in Australian landscape" class="rounded-lg shadow-lg w-full object-cover">
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex flex-col md:flex-row-reverse items-center mb-16">
+                    <div class="md:w-1/2 md:pl-16 mb-8 md:mb-0">
+                        <div class="bg-green-50 p-8 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4 font-heading">Step 4: Treatment Filters at Coalmine Road</h3>
+                            <p class="text-gray-700 mb-6">Modular biochar filters at the key Coalmine Road drainage chokepoint. Treats acidic water before it reaches the estuary – removing 70–99% of toxic aluminium and iron, raising pH above safe levels. Passive, low-maintenance, lasting 5–10 years.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 md:pr-16">
+                        <img src="https://biochar-us.org/sites/default/files/learning/Factsheet_Biochar_Storm_Water_Filtration.jpg" alt="Biochar stormwater filtration system" class="rounded-lg shadow-lg w-full object-cover">
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 md:pr-16 mb-8 md:mb-0">
+                        <div class="bg-green-50 p-8 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-green-800 mb-4 font-heading">Step 5: Healthy Waterways & Thriving Estuary</h3>
+                            <p class="text-gray-700 mb-6">The result: stable pH >5.5, dramatically reduced metal toxicity, no more floc events. Native fish and invertebrates return, aquatic plants flourish, and the whole ecosystem rebounds. A resilient, healthy river for generations.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 md:pl-16">
+                        <img src="https://live-production.wcms.abc-cdn.net.au/5c2b90e0d2556d0f022e182a34d99e7e?impolicy=wcms_crop_resize&cropH=1000&cropW=1500&xPos=0&yPos=0&width=1500&height=1000" alt="Thriving Australian waterway with native fish" class="rounded-lg shadow-lg w-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section id="involved" class="py-20 bg-green-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-green-800 mb-6 font-heading">Join the River Revival Rangers</h2>
+                <p class="text-lg text-gray-700 mb-10">We need your help to make this vision a reality. Whether you're a local resident, business owner, scientist, or just someone who cares about our waterways – there's a role for you.</p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <div class="bg-green-100 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto">
+                            <i data-feather="dollar-sign" class="text-green-700"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-green-800 mb-4 font-heading">Donate</h3>
+                        <p class="text-gray-700">Support our biochar production and installation efforts with a tax-deductible contribution.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <div class="bg-green-100 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto">
+                            <i data-feather="tool" class="text-green-700"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-green-800 mb-4 font-heading">Volunteer</h3>
+                        <p class="text-gray-700">Join our work crews in the field – no experience needed, just enthusiasm and willingness to learn.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <div class="bg-green-100 w-16 h-16 flex items-center justify-center rounded-full mb-6 mx-auto">
+                            <i data-feather="share-2" class="text-green-700"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-green-800 mb-4 font-heading">Spread the Word</h3>
+                        <p class="text-gray-700">Share our project with your networks and help build community support.</p>
+                    </div>
+                </div>
+
+                <form class="max-w-lg mx-auto">
+                    <div class="mb-6">
+                        <label for="email" class="block text-left text-gray-700 mb-2">Stay updated with our progress</label>
+                        <form action="https://formsubmit.co/luca@possibleagriculture.com.au" method="POST" class="space-y-6">
+    <div>
+        <label for="name" class="block text-gray-700 mb-2">Name</label>
+        <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+    </div>
+    <div>
+        <label for="email" class="block text-gray-700 mb-2">Email</label>
+        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500">
+    </div>
+    <div class="flex items-start">
+        <div class="flex items-center h-5">
+            <input id="support" name="support" type="checkbox" class="focus:ring-green-500 h-4 w-4 text-green-600 border-gray-300 rounded">
+        </div>
+        <label for="support" class="ml-3 block text-sm text-gray-700">
+            I support the Anglesea Biochar Restoration Plan
+        </label>
+    </div>
+    <div>
+        <label for="message" class="block text-gray-700 mb-2">Message (optional)</label>
+        <textarea id="message" name="message" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
+    </div>
+    
+    <!-- Optional hidden fields for better experience -->
+    <input type="hidden" name="_captcha" value="false"> <!-- disables captcha -->
+    <input type="hidden" name="_subject" value="New Anglesea River Revival Supporter!">
+    <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html"> <!-- optional: redirect to a thank-you page; or remove if you don't have one -->
+    
+    <button type="submit" class="w-full bg-green-700 hover:bg-green-600 text-white py-3 px-6 rounded-lg font-medium transition duration-300">Show Your Support</button>
+</form>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4 font-heading">River Revival Rangers</h3>
+                    <p class="text-green-200">Slow the flow. Heal the land. Restore our river.</p>
+                </div>
+                <div class="flex flex-col items-center md:items-end">
+                    <p class="text-green-200 mb-4 text-center md:text-right">Proposed by Possible Agriculture – expert biochar installation and regenerative design.</p>
+                    <p class="text-green-200 text-sm">We acknowledge the Traditional Owners of the land, the Wadawurrung People, and pay our respects to their Elders past, present and emerging.</p>
+                </div>
+            </div>
+            <div class="border-t border-green-700 mt-8 pt-8 text-center text-green-300 text-sm">
+                <p>&copy; 2026 River Revival Rangers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>feather.replace();</script>
+    <script src="script.js"></script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
